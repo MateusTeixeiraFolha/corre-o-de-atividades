@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TermoTech - Login</title>
+</head>
+
+<body>
+    <div class="header_sessao">
+        <div class="container">
+            <h1 class="titulo"><span class="destaque">Termo</span>Tech</h1>
+            <ul class="navbar">
+                <b>
+                <a href="index.html" class="item_menu">Home</a>
+                <a href="index.html" class="item_menu">Sobre nós</a>
+              
+                <a href="index.html" class="item_menu">Contato</a>
+                <a href="login.html" class="item_menu"><span class="destaque">Login</span></a>    
+            </b>
+            </ul>
+        </div>
+    </div>
+
+    <form>
+
+        <h3>Faça Login</h3>
+
+        <input id="input_email" class="inputs" type="text" name="" placeholder="Insira seu Email" required/>
+        <input id="input_senha" class="inputs" type="password" name="" placeholder="Insira sua senha" required/>
+        <a href="perfil.html"><input class="btn" type="submit" name="acao" value="Enviar" autofocus/></a>
+        <br> Não possui login?
+        <a href="cadastro.html"> Cadastre-se</a><br><br>
+
+        <!--vamos entrar na sessão dos inputs para os campos de cadastro.-->
+        <div id="perfil" class="perfil">
+            <div id="popup" onclick="perfil()">
+                <div id="junte-se" class="cadastro">
+
+
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="footer">
+
+        <div class="container">
+
+            <h4><a href="https://github.com/BandTec/grupo03-TermoTech">TermoTech</a></h4>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    function perfil() {
+        popup.style.display = "block"
+        popup.innerHTML = `<div id="junte-se" class="cadastro">
+
+               <div class="container">
+
+                <input type="text" class="popupC" placeholder="Como podemos te chamar?">
+                <input type="text" class="popupC" placeholder="E o seu sobrenome?">
+                <input type="text" class="popupC" placeholder="Possui endereço de e-mail?">
+                <input type="text" class="popupC" placeholder="Posso te ligar?">
+                <input type="text" class="popupC" placeholder="Você é homem ou mulher?">
+                <input type="text" class="popupC" placeholder="Para qual CNPJ você é representante?">
+                <input type="text" class="popupC" placeholder="Qual senha você deseja cadastrar?">
+                <input type="text" class="popupC" placeholder="Tem certeza que é esta senha?">
+                <br><input type="checkbox"> Eu estou ciente dos usos destes <a href="termos.html">dados</a>, e aceito o motivo de sua coleta.
+                <br><button class="btn_cadastro">Cadastrar-se</button>
+                <button class="btn_cadastro">Cancelar</button>
+
+            </div>
+
+        </div>`;
+    }
+</script>

@@ -1,0 +1,368 @@
+/*CORPO*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #232323;
+    color: white;
+}
+
+
+/*MENU*/
+
+.header {
+    background-color: #272626;
+    color: white;
+    overflow: auto;
+    border-bottom: 5px solid #4b4bb1;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 9px 0;
+    width: 100%;
+    position: fixed;
+}
+
+.header_sessao {
+    background-color: #272626;
+    color: white;
+    overflow: auto;
+    border-bottom: 5px solid #4b4bb1;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 9px 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.titulo {
+    float: left;
+    margin: 0.5%;
+}
+
+a {
+    color: white;
+}
+
+a :hover {
+    color: #193cd8;
+}
+
+.destaque {
+    color: #193cd8;
+}
+
+.navbar {
+    float: right;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+}
+
+.item_menu {
+    float: left;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*LOGIN*/
+
+form {
+    background-color: #232323;
+    /* Define largura maxima que o formulario pode chegar */
+    max-width: 500px;
+    width: 60%;
+    padding: 20px;
+    /* Arredonda as bordas */
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+}
+
+form h3 {
+    text-align: center;
+}
+
+.inputs {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.inpt {
+    width: 95%;
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 5px;
+    border: none;
+    background-color: #d1d1d1;
+}
+
+.email {
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    width: 95%;
+    height: 35px;
+    margin-left: 2.4%;
+    color: #ffff;
+    background-color: #06ff1be5;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    filter: brightness(80%);
+}
+
+.link {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    opacity: 80%;
+}
+
+a:hover {
+    color: #193CD8;
+}
+
+
+/*SOBRE*/
+
+.box {
+    overflow: auto;
+    margin-left: 150px;
+}
+
+.box img {
+    height: 180px;
+}
+
+.box-item {
+    float: left;
+    text-align: center;
+    width: 17%;
+    padding: 3%;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    text-align: center;
+    background-color: #193CD8;
+    height: 50px;
+    padding-top: 8px;
+}
+
+.footer h4 {
+    margin: 0;
+    font-weight: 100;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*BANNER*/
+
+.banner {
+    text-align: center;
+    background-color: #a7a3a3;
+    background-repeat: no-repeat;
+    background-image: url(img/BannerTermoTech.png);
+    background-size: cover;
+    height: 65vh;
+    border-bottom: 5px solid #4b4bb1;
+}
+
+
+/* Saiba mais */
+
+.btn {
+    font-size: 12pt;
+    border: none;
+    background-color: #193cd8;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Nunito Sans, sans-serif;
+    cursor: pointer;
+}
+
+.saiba-mais {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #232323;
+    padding: 15px;
+    height: auto;
+    border-bottom: 5px solid #4b4bb1;
+}
+
+.saiba-mais a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*MISSÃO - VISÃO - VALORES*/
+
+.box1 img {
+    height: 100px;
+}
+
+.box1 {
+    overflow: auto;
+    border-bottom: 5px solid #4b4bb1;
+    background-color: #232323;
+    color: white;
+}
+
+.box1-item {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+
+/*CONTATO*/
+
+.box-item .icon {
+    height: 35px;
+    ;
+}
+
+.box-item .sociais {
+    margin-bottom: 10%;
+}
+
+
+/*TERMO DE CADASTRO*/
+
+.login {
+    background-color: green;
+    color: yellow;
+}
+
+.termos {
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+
+/*PERFIL*/
+
+.popup {
+    margin-left: 70%;
+    background-color: white;
+    color: black;
+    display: none;
+    position: fixed;
+    overflow: auto;
+}
+
+.ocultar {
+    display: block;
+}
+
+.popup img {
+    height: 100px;
+    padding-left: 50px;
+}
+
+.popup a {
+    margin-right: 20px;
+    margin-right: 20px;
+    list-style: none;
+    color: black;
+}
+
+.foto {
+    margin-right: 10px;
+}
+
+.painel img {
+    float: left;
+    text-align: center;
+    width: 15%;
+    padding: 3%;
+    overflow: auto;
+}
+
+
+/*GRÁFICOS*/
+
+.graficos {
+    margin-bottom: 1000px;
+}
+
+.umidade_titulo {
+    width: 80px;
+    height: 18px;
+}
+
+.umidade_titulo {
+    width: 80px;
+    height: 18px;
+}
+
+.resultado {
+    width: 80px;
+    height: 18px;
+}
+
+.foto_usuario {
+    height: 170px;
+    margin: 0;
+}
+
+.working {
+    width: 17%;
+    height: 10%;
+    margin-top: 4%;
+    border: solid red;
+    position: sticky;
+    overflow: auto;
+    float: left;
+}
+
+.working button {
+    margin-left: 50%;
+}
+
+.cargo {
+    display: none;
+}
+
+.info_usuario {
+    margin-left: 10%;
+}
+
+.simulador {
+    width: 100%;
+    height: 200px;
+    margin-left: 30%;
+}
+
+.input_simulador {
+    margin-left: 10%;
+}
